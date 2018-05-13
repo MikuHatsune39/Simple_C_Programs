@@ -1,0 +1,1 @@
+Set PrintFile.exe to run in compatibility mode for windows 7.

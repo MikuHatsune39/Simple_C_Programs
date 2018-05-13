@@ -32,6 +32,10 @@ int main(int argc, char *argv[])
             printCharsAtSpeed(mybuffer, 50);
         }
     }
+    else
+    {
+        printf("Usage:\nPrintFile filename\nOr:\nPrintFile filename speed\n\nDefault speed is 50 (lowernumber = faster)");
+    }
     return 0;
 }
 

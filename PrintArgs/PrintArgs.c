@@ -6,7 +6,8 @@ int main(int argc, char *argv[])
     int i = 1;
     while(argv[i] != '\0')
     {
-        printf("%s\n", argv[i]);
+		printChars(argv[i]);
+		printf("\n");
         i++;
     }
     return 0;

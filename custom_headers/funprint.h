@@ -1,7 +1,7 @@
 /*
  * Header file for some fun custom print functions.
  * Add  #include "funprint.h"  at the start of your file to use.
- * By: Daniel McPhail
+ * By: MikuHatsune39
  */
 
 #include <stdio.h>

@@ -9,6 +9,11 @@ int main(int argc, char *argv[])
         size_t size = 0;
 
         FILE *fp = fopen(argv[1], "r"); // warning
+        if(fp == NULL)
+        {
+            printf("Error: File not found.");
+            return 1;
+        }
 
         fseek(fp, 0, SEEK_END);
         size = ftell(fp);
